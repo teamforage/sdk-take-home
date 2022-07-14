@@ -16,19 +16,18 @@ understand the challenges we face at Forage and to demonstrate your skills.
 
 ### Required solution
 
-1. Create a visual component that allows an end-user to enter their EBT card number and submit it to the remote server.
-1. Develop the component against the server that lives in `./server/`. You will find instruction on how to run the server in the file `./server/README.md`
-1. The component should be importable.
-1. The component should be mountable.
-1. The component should expose a method for submitting the card number to the remote server. This method should return "valuable" data to its caller.
-  1.1. We are purposefully leaving this ambiguous. We are curious to know how you approach this and we will ask you to explain your reasoning during the code review.
-1. Documentation on how to use the component.
+- [ ] Create a visual component that allows an end-user to enter their EBT card number and submit it to the remote server.
+- [ ] The component should submit the card number to the development server. The development server code lives in `./server/`. Read `./server/README/md` for instructions on how to run the server in your local dev environment.
+- [ ] The component should be importable.
+- [ ] The component should be mountable.
+- [ ] The component should accept a callback function for succesful requests. The callback function expects a receipt of the response.
+- [ ] Documentation on how to use the component.
 
 ### Extra credit solutions
 
-1. Accompanying unit tests.
-1. The client library is installable via a popular package manager.
-1. The component accepts a callback function for validation errors.
+- [ ] Accompanying unit tests.
+- [ ] The client library is installable via a popular package manager.
+- [ ] The component accepts a callback function for validation errors.
 
 ### About the server
 
