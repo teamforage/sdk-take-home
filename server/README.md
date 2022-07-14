@@ -7,6 +7,8 @@ Make sure you've installed docker. I suggest you install Docker Desktop.
   - [Windows](https://docs.docker.com/desktop/install/windows-install/)
   - [Linux](https://docs.docker.com/desktop/install/linux-install/)
 
+We defined the server's endpoint `/api/payment_methods/` in [./oas.yml](./oas.yml). It is written in [open api specification](https://swagger.io/specification/)
+
 
 ### Option a: docker compose
 
